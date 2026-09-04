@@ -19,7 +19,7 @@ dev = ["pytest", "pytest-cov"]
 # AST graph backend. Optional: the graph builder falls back to grep when
 # graphifyy is absent (REQ-GRA-006). Pin must match preflight.py REQ-GRA-001
 # and install.sh's bundled-venv install.
-graph = ["graphifyy>=0.8.14,<0.9.0"]
+graph = ["graphifyy>=0.9.53,<0.10.0"]
 
 [project.urls]
 github = "https://github.com/capitalone/vulnhunter"
